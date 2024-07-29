@@ -14,6 +14,11 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <!-- AOS Library CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+        <!-- AOS Library JS -->
+        <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -27,7 +32,8 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="#Home">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects">Proyectos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">Sobre mi</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Servicios</a></li>
                         <li class="nav-item"><a class="nav-link" href="#Contacto">Contacto</a></li>
                         <li class="nav-item"><a class="nav-link" href="archivos/Cv Miguel Tfangche.pdf" download="archivos/Cv Miguel Tfangche.pdf">CV</a></li>
 
@@ -49,148 +55,177 @@
                 </div>
             </div>
         </header>
-        <!-- About-->
-        <section class="about-section text-center" id="about">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2 class="highlight-text mb-4 text-white">Sobre mi ..</h2>
-                        <p class="text-white-50">
-                            Como diseñador frontend, mi labor se centra en la creación de interfaces visualmente atractivas y funcionales para sitios web y aplicaciones. Mi trabajo consiste en convertir las ideas y conceptos en experiencias gratificantes para los usuarios,  utilizando una combinación de habilidades técnicas y creativas, haciendo posible una navegacion intuitiva y agradable.
-                        </p>
-                        <p class="text-white-50">
-                            Mi enfoque se basa en la empatía hacia el usuario final, comprendiendo sus necesidades y expectativas para crear diseños que no solo sean estéticamente agradables, sino también altamente funcionales. Creo firmemente que un buen diseño debe ser intuitivo, fácil de usar y accesible para todos.
-                        </p>
-                        <p class="text-white-50">
-                            Además, me esfuerzo por mantenerme al día con las últimas tendencias y tecnologías en el mundo del diseño web. Desde el uso de frameworks modernos hasta la implementación de prácticas de desarrollo responsivo, mi objetivo es asegurar que cada proyecto no solo cumpla con los estándares actuales, sino que también sea capaz de adaptarse y evolucionar con el tiempo.
-                        </p>
-                        <p class="text-white-50">
-                            La colaboración es otra pieza clave de mi proceso. Trabajo estrechamente con otros desarrolladores, diseñadores y stakeholders para asegurar que cada proyecto refleje una visión compartida y se ejecute con la máxima precisión. La comunicación efectiva y la retroalimentación continua son esenciales para garantizar que todos los aspectos del diseño se alineen con los objetivos del proyecto.
-                        </p>
-                        <p class="text-white-50">
-                            En resumen, mi pasión por el diseño frontend se traduce en un compromiso constante con la excelencia y la innovación. Estoy dedicado a crear experiencias digitales que no solo sean visualmente atractivas, sino que también proporcionen un valor real y duradero a los usuarios. Si estás buscando un diseñador frontend que pueda transformar tus ideas en realidad, estás en el lugar correcto.
-                        </p>
-                    </div>
-                </div>
-                <img class="img-fluid shadow-img" src="/assets/img/desktop.jpg" alt="..." />
-
+        <!-- About Section -->
+<section class="about-section text-center" id="about">
+    <div class="container px-4 px-lg-5" data-aos="fade-up">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-lg-8">
+                <h2 class="highlight-text mb-4 text-white" data-aos="fade-right">Sobre mi ..</h2>
+                <p class="text-white-50" data-aos="fade-left">
+                    Como diseñador frontend, mi labor se centra en la creación de interfaces visualmente atractivas y funcionales para sitios web y aplicaciones. Mi trabajo consiste en convertir las ideas y conceptos en experiencias gratificantes para los usuarios, utilizando una combinación de habilidades técnicas y creativas, haciendo posible una navegacion intuitiva y agradable.
+                </p>
+                <p class="text-white-50" data-aos="fade-left">
+                    Mi enfoque se basa en la empatía hacia el usuario final, comprendiendo sus necesidades y expectativas para crear diseños que no solo sean estéticamente agradables, sino también altamente funcionales. Creo firmemente que un buen diseño debe ser intuitivo, fácil de usar y accesible para todos.
+                </p>
+                <p class="text-white-50" data-aos="fade-left">
+                    Además, me esfuerzo por mantenerme al día con las últimas tendencias y tecnologías en el mundo del diseño web. Desde el uso de frameworks modernos hasta la implementación de prácticas de desarrollo responsivo, mi objetivo es asegurar que cada proyecto no solo cumpla con los estándares actuales, sino que también sea capaz de adaptarse y evolucionar con el tiempo.
+                </p>
+                <p class="text-white-50" data-aos="fade-left">
+                    La colaboración es otra pieza clave de mi proceso. Trabajo estrechamente con otros desarrolladores, diseñadores y stakeholders para asegurar que cada proyecto refleje una visión compartida y se ejecute con la máxima precisión. La comunicación efectiva y la retroalimentación continua son esenciales para garantizar que todos los aspectos del diseño se alineen con los objetivos del proyecto.
+                </p>
+                <p class="text-white-50" data-aos="fade-left">
+                    En resumen, mi pasión por el diseño frontend se traduce en un compromiso constante con la excelencia y la innovación. Estoy dedicado a crear experiencias digitales que no solo sean visualmente atractivas, sino que también proporcionen un valor real y duradero a los usuarios. Si estás buscando un diseñador frontend que pueda transformar tus ideas en realidad, estás en el lugar correcto.
+                </p>
             </div>
-        </section>
+        </div>
+        <img class="img-fluid shadow-img" src="/assets/img/desktop.jpg" alt="..." data-aos="zoom-in" />
+    </div>
+</section>
         
         
-        <!-- Projects-->
-        <section class="projects-section bg-light" id="projects">
-            <div class="container px-4 px-lg-5">
-                <!-- Featured Project Row-->
-                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="/assets/img/modern-office.jpg" alt="..." /></div>
-                    <div class="col-xl-4 col-lg-5">
-                        <div class="featured-text text-center text-lg-left">
-                            <h4>Diseños exclusivos</h4>
-                            <p class="text-black-50 mb-0">Cada proyecto es una oportunidad para crear algo único y distintivo. Nuestros diseños exclusivos están personalizados para reflejar la identidad y necesidades específicas de cada cliente, asegurando que cada interfaz no solo sea funcional, sino también un reflejo auténtico de la marca.</p>
-                        </div>
-                    </div>
+        <!-- Projects Section -->
+<section class="projects-section bg-light" id="projects">
+    <div class="container px-4 px-lg-5">
+        <!-- Featured Project Row -->
+        <div class="row gx-0 mb-4 mb-lg-5 align-items-center" data-aos="fade-up">
+            <h1 class="proyects-h1 text-center mb-5" >Servicios</h1>
+            <div class="col-xl-8 col-lg-7">
+                <img class="img-fluid mb-3 mb-lg-0" src="/assets/img/modern-office.jpg" alt="..." data-aos="zoom-in" />
+            </div>
+            <div class="col-xl-4 col-lg-5">
+                <div class="featured-text text-center text-lg-left">
+                    <h4 data-aos="fade-right">Diseños exclusivos</h4>
+                    <p class="text-black-50 mb-0" data-aos="fade-left">Cada proyecto es una oportunidad para crear algo único y distintivo. Nuestros diseños exclusivos están personalizados para reflejar la identidad y necesidades específicas de cada cliente, asegurando que cada interfaz no solo sea funcional, sino también un reflejo auténtico de la marca.</p>
                 </div>
-                <!-- Project One Row-->
-                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="/assets/img/atractive-web-design.jpg" alt="..." /></div>
-                    <div class="col-lg-6">
-                        <div class="bg-white text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-black">Experiencias visualmente placenteras</h4>
-                                    <p class="mb-0 text-black-50">Nuestro objetivo es crear interfaces que no solo sean visualmente atractivas, sino que también proporcionen una experiencia de usuario gratificante. Utilizamos una combinación de estética y funcionalidad para asegurar que cada interacción sea intuitiva y agradable.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Project Two Row-->
-                <div class="row gx-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/responsive.png" alt="..." /></div>
-                    <div class="col-lg-6 order-lg-first">
-                        <div class="bg-white text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-black">Full responsive</h4>
-                                    <p class="mb-0 text-black-50">En un mundo donde el acceso a la web se realiza desde una variedad de dispositivos, es crucial que nuestros diseños sean completamente responsivos. Nos aseguramos de que cada sitio web y aplicación funcione perfectamente en cualquier pantalla, desde móviles hasta desktop, proporcionando una experiencia de usuario coherente y satisfactoria.</p>
-                                </div>
-                            </div>
+            </div>
+        </div>
+        <!-- Project One Row -->
+        <div class="row gx-0 mb-5 mb-lg-0 justify-content-center" data-aos="fade-up">
+            <div class="col-lg-6">
+                <img class="img-fluid" src="/assets/img/atractive-web-design.jpg" alt="..." data-aos="zoom-in" />
+            </div>
+            <div class="col-lg-6">
+                <div class="bg-white text-center h-100 project">
+                    <div class="d-flex h-100">
+                        <div class="project-text w-100 my-auto text-center text-lg-left">
+                            <h4 class="text-black" data-aos="fade-right">Experiencias visualmente placenteras</h4>
+                            <p class="mb-0 text-black-50" data-aos="fade-left">Nuestro objetivo es crear interfaces que no solo sean visualmente atractivas, sino que también proporcionen una experiencia de usuario gratificante. Utilizamos una combinación de estética y funcionalidad para asegurar que cada interacción sea intuitiva y agradable.</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+        <!-- Project Two Row -->
+        <div class="row gx-0 justify-content-center" data-aos="fade-up">
+            <div class="col-lg-6">
+                <img class="img-fluid" src="assets/img/responsive.png" alt="..." data-aos="zoom-in" />
+            </div>
+            <div class="col-lg-6 order-lg-first">
+                <div class="bg-white text-center h-100 project">
+                    <div class="d-flex h-100">
+                        <div class="project-text w-100 my-auto text-center text-lg-right">
+                            <h4 class="text-black" data-aos="fade-right">Full responsive</h4>
+                            <p class="mb-0 text-black-50" data-aos="fade-left">En un mundo donde el acceso a la web se realiza desde una variedad de dispositivos, es crucial que nuestros diseños sean completamente responsivos. Nos aseguramos de que cada sitio web y aplicación funcione perfectamente en cualquier pantalla, desde móviles hasta desktop, proporcionando una experiencia de usuario coherente y satisfactoria.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+        
         
         <!-- Contact-->
-        <section id="Contacto" class="contact-section bg-white text-center">
-            <div class="container" data-aos="fade">
-                  <div class="col-lg-12">
-        
-                    <div class="info">
-                      <h3>Contacto!</h3>
-                      <br>
-        
-                      <div class="info-item">
-                        <i class="bi bi-geo-alt flex-shrink-0"></i>
-                        <div>
-                          <h4>Ubicacion:</h4>
-                          <p>Santa Cruz 23, Cordoba, Argentina</p>
-                        </div>
-                      </div><!-- End Info Item -->
-        
-                      <div class="info-item">
-                        <i class="bi bi-envelope flex-shrink-0"></i>
-                        <div>
-                          <h4>Email:</h4>
-                          <p>migueltfangche@gmail.com</p>
-                        </div>
-                      </div><!-- End Info Item -->
-        
-                      <div class="info-item">
-                        <i class="bi bi-phone flex-shrink-0"></i>
-                        <div>
-                          <h4>Telefono</h4>
-                          <p>+54 9 351 2368710</p>
-                        </div>
-                      </div><!-- End Info Item -->
-        
+<!-- Contact-->
+<section id="Contacto" class="contact-section bg-light text-center mb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 mb-3 mb-lg-0">
+                <div class="card h-100" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-body text-center">
+                        <i class="bi bi-geo-alt" style="font-size: 2rem;"></i>
+                        <h4 class="mt-3">Ubicación:</h4>
+                        <p>Santa Cruz 23, Córdoba, Argentina</p>
                     </div>
-        
-                  </div>
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <a style="font-size: 3rem;" href="https://www.instagram.com/migueltfangche/" target="_blank"><i class="fab fa-instagram contact-icon"></i></a>
-                                <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">https://www.instagram.com/migueltfangche/</div>
-                            </div>
-                        </div>
+                </div>
+            </div><!-- End Info Item -->
+
+            <div class="col-lg-4 mb-3 mb-lg-0">
+                <div class="card h-100" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-body text-center">
+                        <i class="bi bi-envelope" style="font-size: 2rem;"></i>
+                        <h4 class="mt-3">Email:</h4>
+                        <p>migueltfangche@gmail.com</p>
                     </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <a style="font-size: 3rem;" href="https://www.linkedin.com/in/miguel-angel-tfangche/" target="_blank"><i class="fab fa-linkedin contact-icon"></i></a>
-                                <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50"><a href="#!">https://www.linkedin.com/in/miguel-angel-tfangche/</a></div>
-                            </div>
-                        </div>
+                </div>
+            </div><!-- End Info Item -->
+
+            <div class="col-lg-4 mb-3 mb-lg-0">
+                <div class="card h-100" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card-body text-center">
+                        <i class="bi bi-phone" style="font-size: 2rem;"></i>
+                        <h4 class="mt-3">Teléfono:</h4>
+                        <p>+54 9 351 2368710</p>
                     </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <a style="font-size: 3rem;" href="https://github.com/migueltfangche" target="_blank"><i class="fab fa-github contact-icon"></i></a>
-                                <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">https://github.com/migueltfangche</div>
-                            </div>
+                </div>
+            </div><!-- End Info Item -->
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5">
+            <div class="col-md-4 mb-3 mb-md-0">
+                <div class="card py-4 h-100">
+                    <div class="card-body text-center">
+                        <a style="font-size: 3rem;" href="https://www.instagram.com/migueltfangche/" target="_blank">
+                            <i class="fab fa-instagram contact-icon"></i>
+                        </a>
+                        <hr class="my-4 mx-auto" />
+                        <div class="small text-black-50">
+                            <a href="https://www.instagram.com/migueltfangche/" target="_blank">
+                                https://www.instagram.com/migueltfangche/
+                            </a>
                         </div>
                     </div>
                 </div>
-                
             </div>
-        </section>
+
+            <div class="col-md-4 mb-3 mb-md-0">
+                <div class="card py-4 h-100">
+                    <div class="card-body text-center">
+                        <a style="font-size: 3rem;" href="https://www.linkedin.com/in/miguel-angel-tfangche/" target="_blank">
+                            <i class="fab fa-linkedin contact-icon"></i>
+                        </a>
+                        <hr class="my-4 mx-auto" />
+                        <div class="small text-black-50">
+                            <a href="https://www.linkedin.com/in/miguel-angel-tfangche/" target="_blank">
+                                https://www.linkedin.com/in/miguel-angel-tfangche/
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3 mb-md-0">
+                <div class="card py-4 h-100">
+                    <div class="card-body text-center">
+                        <a style="font-size: 3rem;" href="https://github.com/migueltfangche" target="_blank">
+                            <i class="fab fa-github contact-icon"></i>
+                        </a>
+                        <hr class="my-4 mx-auto" />
+                        <div class="small text-black-50">
+                            <a href="https://github.com/migueltfangche" target="_blank">
+                                https://github.com/migueltfangche
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
         <!-- Footer-->
         <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">&copyMiguel Dev</div></footer>
         <!-- Bootstrap core JS-->

@@ -45,3 +45,10 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    AOS.init({
+        duration: 1000, // Duración de las animaciones en milisegundos
+        once: true, // La animación se ejecuta solo una vez
+    });
+});
