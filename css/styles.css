@@ -100,6 +100,7 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+
 hr {
   margin: 1rem 0;
   color: inherit;
@@ -11161,6 +11162,7 @@ body {
 .info-item i {
   color: #116776;
 }
+
 
 .card {
   border: none; 
