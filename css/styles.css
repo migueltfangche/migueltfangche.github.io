@@ -11137,6 +11137,13 @@ body {
     padding: 5rem;
   }
 }
+.projects-section .row {
+  margin-bottom: 50px; /* Espacio entre filas */
+}
+
+.projects-section .col-lg-6 {
+  padding: 20px; /* Espacio interno en las columnas */
+}
 
 
 
@@ -11173,3 +11180,38 @@ body {
 .footer {
   padding: 5rem 0;
 }
+.tecnologías {
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-track {
+  display: flex;
+  animation: scroll 30s linear infinite;
+  gap: 80px; /* Añadimos más espacio entre las imágenes */
+}
+
+@keyframes scroll {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(-50%); /* Ajustamos para un desplazamiento fluido */
+  }
+}
+
+.carousel-track img {
+  margin: 0 15px;
+  flex-shrink: 0;
+}
+
+.carousel-track:hover {
+  animation-play-state: paused; /* Pausar al hacer hover */ }
